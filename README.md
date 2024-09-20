@@ -1,5 +1,7 @@
 This code allows you to log in to an app with facial recognition.
+
 You can check the following pictures
+
 ![Ekran görüntüsü 2024-09-20 235305](https://github.com/user-attachments/assets/61d1899a-b77b-490e-84fb-00a38919982f) 
 
 ![Ekran görüntüsü 2024-09-20 235336](https://github.com/user-attachments/assets/8b96ab13-092c-4624-97a1-1e0b17bebdc3)
