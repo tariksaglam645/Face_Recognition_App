@@ -18,7 +18,7 @@ class FaceRecognitionApp:
         with open("people_encoded.p", "rb") as file:
             self.names, self.people_encoded = pickle.load(file)
 
-        # Setup UI components
+        
         self.resim_label = Label(self.root, bg="gray")
         self.resim_label.grid(row=0, column=0, padx=10, pady=10)
 
@@ -100,7 +100,7 @@ class FaceRecognitionApp:
                 self.isim_label.configure(text="Yüz Algılanmadı!", font=("Arial", 30), fg="red")
                 self.isim_label.place(x=750, y=60)
 
-            # Update the video feed
+            
             img = Image.fromarray(frame)
             imgtk = ImageTk.PhotoImage(image=img)
             self.resim_label.imgtk = imgtk
