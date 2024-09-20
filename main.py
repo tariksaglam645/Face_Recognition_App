@@ -52,7 +52,7 @@ class FaceRecognitionApp:
                     self.names.append(name)
                     self.people_encoded.append(encoded[0])
 
-            # Open a new window to get the user's name
+            
             yeni_pencere = Toplevel(self.root)
             yeni_pencere.title("İsim Giriş")
             yeni_pencere.geometry("300x100")
